@@ -22,7 +22,7 @@ Un minishell est un programme qui agit comme un interpréteur de commandes simpl
   ```
 2. Accédez au répertoire du projet :
   ```
-  cd mInishell
+  cd Minishell
   ```
 3. Compilez le projet en exécutant la commande :
   ```
