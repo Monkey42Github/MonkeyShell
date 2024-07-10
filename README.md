@@ -1,42 +1,46 @@
 # Minishell 42
 
-Ce projet est une implémentation d'un mini-interpréteur de commandes (minishell) en langage C, réalisé dans le cadre du cursus de l'école 42.
+This project is an implementation of a mini command-line interpreter (minishell) in C, developed as part of the curriculum at 42 school.
 
 ## Description
 
-Un minishell est un programme qui agit comme un interpréteur de commandes simplifié, similaire au shell Unix (bash, zsh, etc.). Il permet à l'utilisateur d'exécuter des commandes système, de naviguer dans le système de fichiers, et d'effectuer des opérations de base telles que la redirection de flux d'entrée/sortie et la gestion des processus en arrière-plan.
+A minishell is a program that acts as a simplified command-line interpreter, akin to Unix shells (such as bash, zsh, etc.). It allows users to execute system commands, navigate the file system, and perform basic operations like input/output stream redirection and managing background processes.
 
-## Fonctionnalités
+## Features
 
-- Exécution de commandes système.
-- Gestion des commandes intégrées (ex. `cd`, `echo`, `pwd`).
-- Gestion des opérateurs de redirection (`<`, `>`, `>>`).
-- Prise en charge des tubes (`|`) pour la communication entre processus.
-- Gestion des signaux pour le contrôle des processus en arrière-plan.
+** Execution of system commands.
+** Management of built-in commands (e.g., cd, echo, pwd).
+** Handling redirection operators (<, >, >>).
+** Support for pipes (|) for inter-process communication.
+** Signal handling for controlling background processes.
 
-## Compilation et Exécution
+## Compilation and Execution
 
-1. Clonez ce dépôt sur votre machine :
-  ```
+1. Clone this repository to your machine:
+  ```sh
   git clone <lien vers le dépôt Git>
   ```
-2. Accédez au répertoire du projet :
-  ```
+2. Navigate to the project directory:
+  ```sh
   cd Minishell
   ```
-3. Compilez le projet en exécutant la commande :
-  ```
+3. Compile the project by running:
+  ```sh
   make
   ```
-4. Lancez le minishell en exécutant :
-  ```
+4. Launch the minishell by executing:
+  ```sh
    ./minishell
   ```
 
-## Explication
+## Explanation
 
-Le minishell est construit en utilisant principalement les appels système de bas niveau comme `fork()`, `exec()` et `wait()`. Il analyse les commandes entrées par l'utilisateur, les sépare en tokens et les exécute en fonction de la structure de la ligne de commande.
+The minishell is built primarily using low-level system calls such as `fork()`, `exec()`, and `wait()`. It parses user-entered commands, tokenizes them, and executes based on the command-line structure.
 
-L'implémentation des fonctionnalités avancées telles que la gestion des redirections et des tubes nécessite une compréhension approfondie de la manipulation des descripteurs de fichiers et de la gestion des processus en C.
+Implementation of advanced features like redirections and pipes requires a deep understanding of file descriptor manipulation and process management in C.
 
-Le développement d'un minishell est un excellent exercice pour comprendre le fonctionnement interne des shells Unix et pour améliorer ses compétences en programmation système.
+The development of a minishell is an excellent exercise for understanding the internal workings of Unix shells and improving skills in system programming.
+
+## Contributors
+
+
