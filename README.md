@@ -42,5 +42,5 @@ Implementation of advanced features like redirections and pipes requires a deep 
 The development of a minishell is an excellent exercise for understanding the internal workings of Unix shells and improving skills in system programming.
 
 ## Contributors
-
-
+[pschemit](https://github.com/pschemit)
+[yboughan](https://github.com/YoussefBOUGHANMI)
