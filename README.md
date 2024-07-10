@@ -8,11 +8,11 @@ A minishell is a program that acts as a simplified command-line interpreter, aki
 
 ## Features
 
-** Execution of system commands.
-** Management of built-in commands (e.g., cd, echo, pwd).
-** Handling redirection operators (<, >, >>).
-** Support for pipes (|) for inter-process communication.
-** Signal handling for controlling background processes.
+** Execution of system commands.** 
+** Management of built-in commands (e.g., cd, echo, pwd).** 
+** Handling redirection operators (<, >, >>).** 
+** Support for pipes (|) for inter-process communication.** 
+** Signal handling for controlling background processes.** 
 
 ## Compilation and Execution
 
